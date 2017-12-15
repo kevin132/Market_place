@@ -1,0 +1,162 @@
+body{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#delivery{
+
+	height:80px;
+	width:100%;
+	background-color:#232F3E;
+	color:#fff;
+}
+
+h2.info{
+	font-size:25px;
+}
+
+section#christmas{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height:555px;
+	width:100%;
+	background: #0b0e3d url('../images/snowstars.png') no-repeat ;
+	/*color: #111111;*/
+	color: #ffffff;
+}
+
+.container-fluid{
+	padding-right:0;
+	padding-left:0;
+	margin-right:auto;
+	margin-left:auto
+}
+
+h2.promo{
+    margin-top:1em;
+    font-size: 3vw;
+}
+
+
+.row.no-gutter {
+	margin-left: 0;
+	margin-right: 0;
+}
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.grow img{
+	transition: 1s ease;
+}
+
+.grow img:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
+}
+
+@media (max-width: 998px) {
+	section#christmas{
+		height:750px;
+	}
+}
+
+@media (max-width: 970px) {
+	section#christmas{
+		height:750px;
+	}
+}
+
+@media (max-width: 770px) {
+	section#christmas{
+		height:935px;
+	}
+}
+
+.category-shop{
+	background-color:lightcoral/*#fd6e66*/ /*#f45f42 lightcoral*/;
+	color:#fff;
+	height:auto;
+	width:100%;
+	z-index:100;
+
+}
+
+
+.category-content{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.d-block2{
+    padding:10px;
+}
+h2.info-shop{
+    font-size: 3vw;
+}
+
+#myBtn{
+	margin-top:40px;
+}
+
+
+.contenu{
+	height:100px;
+	width:100%;
+	background-color:black;
+	z-index:-10;
+}
+
+section#best{
+	height:550px;
+	width:100%;
+	background-color:lightgray;
+}
+
+
+
+
+.card{
+	margin-top:60px;
+	width: 15rem;
+
+}
+
+
+.card-img-top{
+	height:210px;
+	width:100%;
+}
+
+
+h4.card-title{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.card-text{
+	font-size:12px;
+}
+
+
+#lastblock{
+	background-color:lightcyan;
+	height:500px;
+	width:100%;
+}
+
+
+.coral{
+
+	height:900px;
+	background-color:black;
+}
+
