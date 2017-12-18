@@ -13,40 +13,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 
     <!--Css link-->
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/search.css">
 
     <!--font PTsans-->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 
-
-
-
-<body data-spy="scroll" data-target=".navbar" data-offset="0">
-<!-- scroolspy bootstrap-->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="#christmas">Idées Cadeaux</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#category-shop">Meilleurs ventes</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#section3">Section 3</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Section 4
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#section41">Link 1</a>
-                <a class="dropdown-item" href="#section42">Link 2</a>
-            </div>
-        </li>
-    </ul>
-</nav>
-
+<?php
+include('header.php');
+?>
 <!-- carrousel bootstrap-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -62,22 +38,22 @@
         </div>
         <div class="carousel-item">
             <img class="d-block img-fluid" src="assets/home_images/kindle.jpg"
-                 alt="Second slide">
+            alt="Second slide">
         </div>
         <div class="carousel-item">
             <img class="d-block img-fluid"
-                 src="assets/home_images/cadeau_promotion.jpg"
-                 alt="Third slide">
+            src="assets/home_images/cadeau_promotion.jpg"
+            alt="Third slide">
         </div>
         <div class="carousel-item">
             <img class="d-block img-fluid"
-                 src="assets/home_images/idea.jpg"
-                 alt="fourth slide">
+            src="assets/home_images/idea.jpg"
+            alt="fourth slide">
         </div>
         <div class="carousel-item">
             <img class="d-block img-fluid"
-                 src="assets/home_images/delivery.jpg"
-                 alt="fifth slide">
+            src="assets/home_images/delivery.jpg"
+            alt="fifth slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -111,45 +87,64 @@
             <div class="row no-gutter">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 mt-3 mb-3  d-flex flex-column align-items-center">
                     <div class="grow">
-                        <img src="assets/home_images/boutique.jpg" width="190" height="180" alt="boutique de noël">
+                        <a href="">
+                            <img src="assets/home_images/boutique.jpg" width="190" height="180" alt="boutique de noël">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 mt-3 mb-3 d-flex flex-column align-items-center">
                     <div class="grow">
-                        <img src="assets/home_images/rush.jpg" width="190" height="180" alt="rush de noël">
+                        <a href="">
+                            <img src="assets/home_images/rush.jpg" width="190" height="180" alt="rush de noël">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 mt-3 mb-3 d-flex flex-column align-items-center">
                     <div class="grow">
-                        <img src="assets/home_images/toys.jpg" width="190" height="180" alt="promotion jeux et jouets">
+                        <a href="">
+                            <img src="assets/home_images/toys.jpg" width="190" height="180"
+                            alt="promotion jeux et jouets">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3  col-md-4 col-sm-6 col-6 mt-3 mb-3 d-flex flex-column align-items-center">
                     <div class="grow">
-                        <img src="assets/home_images/high_tech.jpg" width="190" height="180" alt="promotion high-tech">
+                        <a href="">
+                            <img src="assets/home_images/high_tech.jpg" width="190" height="180"
+                            alt="promotion high-tech">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3 mt-3 d-flex flex-column align-items-center">
                     <div class="grow">
-                        <img src="assets/home_images/kitchen.jpg" width="190" height="180" alt="Promotion cuisine">
+                        <a href="">
+                            <img src="assets/home_images/kitchen.jpg" width="190" height="180" alt="Promotion cuisine">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3 mt-3 d-flex flex-column align-items-center">
                     <div class="grow">
-                        <img src="assets/home_images/garden.jpg" width="190" height="180"
-                             alt="Promotion bricolage et jardin">
+                        <a href="">
+                            <img src="assets/home_images/garden.jpg" width="190" height="180"
+                            alt="Promotion bricolage et jardin">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3 mt-3 d-flex flex-column align-items-center">
                     <div class="grow">
-                        <img src="assets/home_images/video_game.jpg" width="190" height="180"
-                             alt="Promotion jeux vidéo">
+                        <a href="">
+                            <img src="assets/home_images/video_game.jpg" width="190" height="180"
+                            alt="Promotion jeux vidéo">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3  col-md-4 mt-3 mb-3 col-sm-6 col-6 d-flex flex-column align-items-center">
                     <div class="grow">
-                        <img src="assets/home_images/mode.jpg" width="190" height="180" alt="Promotion mode">
+                        <a href="">
+                            <img src="assets/home_images/mode.jpg" width="190" height="180" alt="Promotion mode">
+                        </a>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -172,7 +167,7 @@
 
                     <div class="hovereffect">
                         <img class="d-block2" width="180" height="195" src="assets/home_images/tee-shirt.jpg"
-                             alt="First slide">
+                        alt="First slide">
                         <div class="overlay">
                             <p>
                                 <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
@@ -184,277 +179,346 @@
 
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/bluepull.jpg"
-                             alt="First slide">
-                        <div class="overlay">
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/bluepull.jpg"
+                    alt="First slide">
+                    <div class="overlay">
 
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
 
-                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/glove.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/redpull.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
 
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/glove.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/redpull1.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img  class="d-block2" width="180" height="195" src="assets/home_images/redpull.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/redpull1.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/dress.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/dress.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <p class="title-shop mt-3">High Tech</p>
-        <div class="category-content">
-            <div class="row">
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/watch1.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
+    </div>
+    <p class="title-shop mt-3">High Tech</p>
+    <div class="category-content">
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/watch1.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/watch2.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/watch2.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/watch3.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/watch3.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/watch4.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/watch4.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/board.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/board.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-                    <div class="hovereffect">
-                        <img class="d-block2" width="180" height="195" src="assets/home_images/drone.jpg"
-                             alt="First slide">
-                        <div class="overlay">
-                            <p>
-                                <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                <div class="hovereffect">
+                    <img class="d-block2" width="180" height="195" src="assets/home_images/drone.jpg"
+                    alt="First slide">
+                    <div class="overlay">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!--collapse bootstrap-->
-        <div id="exampleAccordion" data-children=".item">
-            <div id="exampleAccordion2" class="collapse" role="tabpanel">
-                <div class="hide mt-3">
+    <!--collapse bootstrap-->
+    <div id="exampleAccordion" data-children=".item">
+        <div id="exampleAccordion2" class="collapse" role="tabpanel">
+            <div class="hide mt-3">
 
-                    <p class="title-shop">Jeux et jouets</p>
-                    <div class="category-content">
+                <p class="title-shop">Jeux et jouets</p>
+                <div class="category-content">
 
-                        <div class="row">
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-
-
-                                <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/tee-shirt.jpg"
-                                     alt="First slide">
-
-
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
 
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/bluepull.jpg"
-                                     alt="First slide">
+                                src="assets/home_images/tee-shirt.jpg"
+                                alt="First slide">
 
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/glove.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/bluepull.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/redpull.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/glove.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/redpull1.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/redpull.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/dress.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/redpull1.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
+                                <img class="d-block2" width="180" height="195"
+                                src="assets/home_images/dress.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="hide mt-3">
-                    <p class="title-shop">Livres</p>
-                    <div class="category-content">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
-
+            </div>
+            <div class="hide mt-3">
+                <p class="title-shop">Livres</p>
+                <div class="category-content">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/watch1.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/watch1.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
 
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/watch2.jpg"
-                                     alt="First slide">
-
-
+                                src="assets/home_images/watch2.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
 
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/watch3.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/watch3.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
 
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/watch4.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/watch4.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
 
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/board.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/board.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
 
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex flex-column align-items-center">
+                            <div class="hovereffect">
                                 <img class="d-block2" width="180" height="195"
-                                     src="assets/home_images/drone.jpg"
-                                     alt="First slide">
-
+                                src="assets/home_images/drone.jpg"
+                                alt="First slide">
+                                <div class="overlay">
+                                    <p>
+                                        <a href="#" data-toggle="modal" data-target="#exampleModal">Voir aperçu</a>
+                                    </p>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
-
             </div>
 
-            <div class="item text-center">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2"
-                   aria-expanded="false" aria-controls="exampleAccordion2">
-                    <button type="button" class="btn btn-outline-primary mt-3 pr-5 pl-5">Voir Plus</button>
-                </a>
-            </div>
         </div>
-    </section>
+
+        <div class="item text-center">
+            <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2"
+            aria-expanded="false" aria-controls="exampleAccordion2">
+            <button type="button" class="btn btn-outline-primary mt-3 pr-5 pl-5">Voir Plus</button>
+        </a>
+    </div>
+</div>
+</section>
 
 </section>
 
@@ -533,6 +597,10 @@
 
 
 </section>
+
+<?php
+include('footer.php');
+?>
 
 <!--link to javascript-->
 
