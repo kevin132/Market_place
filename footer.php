@@ -1,22 +1,58 @@
 <footer>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12 footer-top d-flex justify-content-center align-items-center">
-                <img src="assets/search_images/logo.png"/>
-            </div>
-            <div class="col-md-12 footer-bottom">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Instagram</a>
+
+
+            <div class="col-lg-3">
+
+                <ul class="list-group">
+                    <li class="list-group-item">Pour mieux nous connaître
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Facebook</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Google+</a>
-                    </li>
+                    <li class="list-group-item">À propos d'Amazon</li>
+                    <li class="list-group-item">Carrières</li>
+                    <li class="list-group-item">Amazon et notre planète</li>
+                    <li class="list-group-item">Amazon Ensemble</li>
+
+
                 </ul>
             </div>
+            <div class="col-lg-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Pour mieux nous connaître
+                    </li>
+                    <li class="list-group-item">À propos d'Amazon</li>
+                    <li class="list-group-item">Carrières</li>
+                    <li class="list-group-item">Amazon et notre planète</li>
+                    <li class="list-group-item">Amazon Ensemble</li>
+
+
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Pour mieux nous connaître
+                    </li>
+                    <li class="list-group-item">À propos d'Amazon</li>
+                    <li class="list-group-item">Carrières</li>
+                    <li class="list-group-item">Amazon et notre planète</li>
+                    <li class="list-group-item">Amazon Ensemble</li>
+
+
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Pour mieux nous connaître
+                    </li>
+                    <li class="list-group-item">À propos d'Amazon</li>
+                    <li class="list-group-item">Carrières</li>
+                    <li class="list-group-item">Amazon et notre planète</li>
+                    <li class="list-group-item">Amazon Ensemble</li>
+
+
+                </ul>
+            </div>
+
         </div>
     </div>
 </footer>
