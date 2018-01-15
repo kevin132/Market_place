@@ -5,23 +5,29 @@ body{
 
 }
 
+.scroll{
+	background-color: #232F3E;
+	margin-top: 59px;
+	z-index: -200;
+}
 
-section.scroll{
-	height:90px;
+ul.navbar-nav{
+	text-decoration: none;
+	color:#fff;
+	background-color:  #232F3E;
+}
+li.scroll-list{
+	text-decoration: none;
+	margin:15px;
 
 }
-.scroll-box {
-	background-color: #232F3E;
-	position: relative;
+li a{
+	color:#fff;
 }
-.scrollspy-example {
-	background-color: #232F3E;
-	position: relative;
-	overflow-y: scroll;
-	height: 200px;
+#carouselExampleIndicators{
+	margin-top: 137px;
 }
 #delivery{
-
 	height:70px;
 	width:100%;
 	background-color:#232F3E;
@@ -36,7 +42,7 @@ section#christmas{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding-bottom:30px;
+	padding-bottom:60px;
 	width:100%;
 	background-color: #0b0e3d; /*url('../home_images/snowstars.png') no-repeat ;*/
 	/*color: #111111;*/
@@ -75,6 +81,10 @@ section#christmas{
 }
 
 
+.resize-img{
+	width:195px;
+	height:195px;
+}
 
 .container-fluid{
 	padding-right:0;
@@ -120,26 +130,21 @@ h2.promo{
 	transition: 1s ease;
 }
 
-@media (max-width: 998px) {
-	section#christmas{
-		height:750px;
-	}
+.grow2 img{
+	transition: 1s ease;
 }
 
-@media (max-width: 970px) {
-	section#christmas{
-		height:750px;
-	}
+.grow2 img:hover{
+	-webkit-transform: scale(1.40);
+	-ms-transform: scale(1.40);
+	transform: scale(1.40);
+	transition: 1s ease;
 }
 
-@media (max-width: 770px) {
-	section#christmas{
-		height:935px;
-	}
-}
+
 
 #category-shop{
-	background-color: /*#ff6600 */ /*#d17906*/  #dd9a21 /*#ffb60c /*#fd6e66*/ /*#f45f42 lightcoral*/;
+	background-color: lightcoral;/*#ff6600 */ /*#d17906*/  /*#dd9a21 /*#ffb60c /*#fd6e66*/ /*#f45f42 lightcoral*/;
 	color:#fff;
 	height:auto;
 	width:100%;
@@ -246,16 +251,14 @@ p.description{
 
 
 
-#myBtn{
-	margin-top:40px;
-}
+
 
 .btn{
 	padding-right:70px;
 	padding-left:70px;
-	color:#fff;
-	border:5px solid;
-	background-color:lightcoral;
+	color:#111;
+	border:1px solid #fff;
+	background-color:#FCBC70;
 	cursor:pointer;
 	outline:0 !important;
 
@@ -277,15 +280,14 @@ p.description{
 }
 
 section#best{
-	height:550px;
 	width:100%;
 	background-color:lightgray;
+	padding-bottom: 50px;
 }
 
 
-
-
 .card{
+	cursor:pointer;
 	margin-top:60px;
 	width: 15rem;
 

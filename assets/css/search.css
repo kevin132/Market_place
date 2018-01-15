@@ -2,8 +2,18 @@
 /*-- Header --*/
 /*------------*/
 .navbar{
+    z-index: 100;
     background: #232F3E;
     width: 100%;
+}
+
+.user-icon{
+    margin-right:20px;
+    height:25px;
+    width:50px;
+}
+.navbar-toggler{
+    cursor:pointer;
 }
 .navbar-brand img{
     width: 50%;
@@ -27,7 +37,9 @@
     font-size: 13px;
 }
 .btn-search{
-    width: 25%;
+
+    height:auto;
+    width: 30px;
     background: #FCBC70;
     border: none;
 }
@@ -35,9 +47,11 @@
     background: #FCBC70;
 }
 .btn-search img{
-    width: 60%;
+    height: auto;
+    width: 20px;
 }
 .dropdown{
+    z-index:200;
     background: white;
     border-top-left-radius: 5px ;
     border-bottom-left-radius: 5px ;
@@ -63,16 +77,38 @@
 
 
 footer{
-    padding-top:60px;
+
     padding-bottom: 70px;
-    padding-bottom:;
     width:100%;
     background-color:#232f3e;
 }
 
+
+.logo{
+    display:block;
+
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+    height:auto;
+}
 .list-group-item{
     border:none;
     background-color:#232f3e;
     color:#FFFFFF;
+
 }
+
+.list-group-item a{
+    text-decoration: none;
+    color:#fff;
+
+}
+
+.list-group-item a:hover{
+    text-decoration: underline;
+    color:#fff;
+
+}
+
 
